@@ -1,0 +1,94 @@
+.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Two-Frame Web Page</title>
+</head>
+<frameset cols="20%, 80%">
+    <frame src="nav.html" name="leftFrame">
+    <frame src="home.html" name="rightFrame">
+</frameset>
+</html>
+nav.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Navigation</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;  }
+        ul {
+            list-style-type: none;
+            padding: 0;   }
+        li {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;  }
+        a {
+            text-decoration: none;
+            color: black;
+            display: block;   }
+        a:hover {
+            background-color: #ddd;  }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="home.html" target="rightFrame" style="color: tomato;">Home</a></li>
+        <li><a href="about.html" target="rightFrame" style="color: tomato;">About</a></li>
+        <li><a href="services.html" target="rightFrame" style="color: tomato;">Services</a></li>
+        <li><a href="contact.html" target="rightFrame" style="color: tomato;">Contact</a></li>
+    </ul>
+</body>
+</html>
+
+
+home.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+</head>
+<body>
+    <h2 style="color: blue;">Welcome to Our Website</h2>
+    <p>This is the home page content.</p>
+</body>
+</html>
+
+
+about.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About</title>
+</head>
+<body>
+    <h2>About Us</h2>
+    <p>We are a company dedicated to providing the best services.</p>
+</body>
+</html>
+
+
+services.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Services</title>
+</head>
+<body>
+    <h2>Our Services</h2>
+    <p>We offer various services to cater to your needs.</p>
+</body>
+</html>
+
+contact.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+</head>
+<body>
+    <h2>Contact Us</h2>
+    <p>Email: abc@gmail.com</p>
+</body>
+</html>

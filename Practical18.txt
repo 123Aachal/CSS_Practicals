@@ -1,0 +1,116 @@
+.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>G H Raisoni College, Jalgaon</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <header>
+    <div class="container">
+      <h1>G H Raisoni College</h1>
+      <p>Jalgaon</p>
+    </div>
+  </header>
+ <section class="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>G H Raisoni College of Engineering, Jalgaon is committed to providing quality education to the students in the field of engineering and technology. The college has a rich legacy of excellence and innovation in academics and extracurricular activities.</p>
+    </div>
+  </section>
+<section class="courses">
+    <div class="container">
+      <h2>Our Courses</h2>
+      <ul>
+        <li>Bachelor of Engineering (BE)</li>
+        <li>Master of Engineering (ME)</li>
+        <li>PhD Programs</li>
+        <li>Diploma Courses</li>
+      </ul>
+    </div>
+  </section>
+<section class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Address: G H Raisoni College, Jalgaon</p>
+      <p>Email: info@ghrc.org</p>
+      <p>Phone: +91 123 456 7890</p>
+    </div>
+  </section>
+ <footer>
+    <div class="container">
+      <p>&copy; 2025 G H Raisoni College, Jalgaon. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
+
+
+.css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  }
+   body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;   }
+    .container  {
+    width: 80%;
+    margin: 0 auto;  }
+  header  {
+    background-color: #2d3e50;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;   }
+  header h1 {
+    font-size: 3rem;  }
+  header p {
+    font-size: 1.2rem;  }
+  .about   {
+    background-color: #fff;
+    padding: 40px 0;
+    margin-top: 20px;  }
+  .about h2  {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;   }
+  .about p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #333;   }
+  .courses  {
+    background-color: #e2e2e2;
+    padding: 40px 0;  }
+  .courses h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;  }
+  .courses ul {
+    list-style-type: none;
+    text-align: center;  }
+   .courses li {
+    font-size: 1.2rem;
+    margin: 10px 0;  }
+  .contact {
+    background-color: #fff;
+    padding: 40px 0;
+    margin-top: 20px;  }
+  .contact h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;  }
+  .contact p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #333;  }
+  footer {
+    background-color: #2d3e50;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;  }
+  footer p {
+    font-size: 1rem; }

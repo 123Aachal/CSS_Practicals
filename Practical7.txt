@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aquamarine;
+            text-align: center;  }
+        .p1{
+            color: tomato;
+           font-family: 'Courier New';  }
+        .p2 {
+            color: blue;
+            font-family: 'Times New Roman';   }
+        .p3  {
+            color:red;
+            font-family: Cambria;  }
+        .p4 {
+           color: aqua;
+       font-family: monospace;  }
+        .p5  {
+            color: blueviolet;
+           font-family: fantasy; }
+    </style>
+    </head>
+<body>
+<h1>Welcome to My web page</h1>
+<p class="p1">This is a paragraph with Courier New  </p>
+<p class="p2">This is a paragraph with Times New Roman   </p>
+<p class="p3">This is a paragraph with Cambria </p>
+<p class="p4">This is a paragraph with monospace   </p>
+<p class="p5">This is a paragraph with fantasy </p>
+</body>
+</html>

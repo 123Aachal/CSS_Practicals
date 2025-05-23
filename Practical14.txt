@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box  {
+            width: 150px;
+            background-color: blueviolet;
+            height: 150px;
+            color: black;
+            text-align: center;
+            line-height: 150px;
+            font-size: 18px;
+            margin: 20px;
+            display: inline-block;  }
+        .rounded  {
+            border-radius: 20px;    
+            background-color: blue;  }
+        .circle  {
+            border-radius: 50%;
+            background-color: aqua;   }
+    </style>
+</head>
+<body><center>
+    <p class="box">Square</p>
+    <p class="box rounded">Rounded</p>
+    <p class="box circle">Circle</p>
+</center>
+</body>
+</html>

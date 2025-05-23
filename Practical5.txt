@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aquamarine;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        h1{
+            color: tomato;
+            text-align: center;
+            text-decoration: dotted;
+        }
+        p
+        {
+            color: blue;
+            text-decoration: dotted;
+            text-align: center;
+        }
+    </style>
+    </head>
+<body>
+<h1>Welcome to My web page</h1>
+<p>This is an example of set Background color using css. </p>
+</body>
+</html>

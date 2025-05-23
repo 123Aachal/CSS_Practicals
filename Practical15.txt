@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #p1 {
+            background-color: rgba(255,0,0,0.3);   }
+        #p2  {
+            background-color: rgba(0,255,0,0.3);  }
+        #p3  {
+            background-color: rgba(192,192,192,0.3);  }
+        #p4  {
+            background-color: rgba(255,0,255,0.3);   }
+        #p5  {
+            background-color: rgba(255,0,0,0.3);   }
+    </style>
+</head>
+<body><center>
+    <p id="p1">Red</p>
+    <p id="p2">Green</p>
+    <p id="p3">Grey</p>
+    <p id="p4">purple</p>
+    <p id="p5">Red</p>
+</center>
+</body>
+</html>

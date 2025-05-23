@@ -1,0 +1,48 @@
+.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Three Column Frameset</title>
+</head>
+<frameset cols="33.33%, 33.33%, 33.34%">
+    <frame src="frame1.html" name="leftFrame">
+    <frame src="frame2.html" name="middleFrame">
+    <frame src="frame3.html" name="rightFrame">
+</frameset>
+</html>
+
+frame1.html
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { background-color: purple; }
+    </style>
+</head>
+<body>
+</body>
+</html>
+
+frame2.html
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { background-color: red; }
+    </style>
+</head>
+<body>
+</body>
+</html>
+
+frame3.html
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { background-color:yellow; }
+    </style>
+</head>
+<body>
+</body>
+</html>

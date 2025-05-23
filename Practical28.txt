@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script>
+        function show()  {
+            alert("It is an alert Dialog box");  }
+    </script>
+    <script>
+        function show1()   {
+            var con = confirm ("It is a confirm Dialog Box");
+            if(con==true)   {
+            document.write("User want to continue");   }
+        else  {
+            document.write("User does not want to continue");   }
+        }
+    </script>
+    <script>
+        function show2()   {
+            var value=prompt("Enter your Name :","Enter your name");
+            document.write("Your Name is : "+value);   }
+    </script>
+</head>
+<body>
+    <p style="color:blue">Hello to Javascript</p>
+    <p>Click the following Button</p>
+    <input type="button" value="Click Here" onClick="show()"/>
+    <input type="button" value="Click Here" onClick="show1()"/>
+    <input type="button" value="Click Here" onClick="show2()"/>
+</body>
+</html>

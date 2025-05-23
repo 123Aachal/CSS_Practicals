@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Number Validation</title>
+    <style>
+        body {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            margin: 50px;
+            background-color: azure;  }
+        .error {
+            color: red;
+            font-size: 14px; }
+        h1{
+            color: darkblue;    }
+    </style>
+</head>
+<body>
+<h1>Number Validation</h1>
+<form onsubmit="return validateNumber()">
+        <label for="numberInput">Enter a Number:</label>
+        <input type="text" id="numberInput" required>
+        <br><br>
+    <span id="error-message" class="error"></span>
+        <br><br>
+    <button type="submit">Submit</button>
+    </form>
+<script>
+function validateNumber() {
+var number = document.getElementById("numberInput").value;
+var errorMessage = document.getElementById("error-message");
+if (number === "" || isNaN(number)) {
+errorMessage.textContent = "Please enter a valid number!";
+return false;
+} else {
+errorMessage.textContent = "";
+alert("Valid Number! Form Submitted Successfully.");
+return true;    }   }
+</script>
+</body>
+</html>

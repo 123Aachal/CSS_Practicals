@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+        background-color: beige;
+            text-align: center;   }
+        .p1{
+            color: tomato;
+           font-weight: bold;  }
+        .p2   {
+            color: blue;
+            font-style: normal;   }
+        .p3  {
+            color:red;
+           text-decoration: dashed;  }
+        .p4  {
+           color: aqua;
+      text-decoration: line-through;  }
+        .p5  {
+            color: blueviolet;
+           text-shadow: 0cqi;  }
+    </style>
+    </head>
+<body>
+<h1>Welcome to My web page</h1>
+<p class="p1">This is a Bold text  </p>
+<p class="p2">This is a normal text  </p>
+<p class="p3">This is a dashed text </p>
+<p class="p4">This is a strike-through   </p>
+<p class="p5">This is a shadow effect </p>
+</body>
+</html>
+

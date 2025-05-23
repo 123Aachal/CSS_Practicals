@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aquamarine;
+            text-align: center;
+        }
+        p{
+            color: slateblue;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-decoration: double;
+           }
+    </style>
+</head>
+<body>
+    <p>Current Date and Time...</p>
+    <script>
+        var today=new Date();
+        document.write(today);
+    </script>
+</body>
+</html>

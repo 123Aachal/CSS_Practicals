@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Addition</title>
+ <style>
+  body{
+    text-align: center;    }
+  h1{
+   color: teal;    }
+ </style>
+</head>
+<body>
+  <h1>Addition of Two Numbers</h1>
+ <script>
+  var x=10;
+  var y=40;
+  var z=x+y;
+  document.write(z);
+ </script> 
+</body>
+</html>
+

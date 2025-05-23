@@ -1,0 +1,47 @@
+.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+    </head>
+<body>
+<h1>Orderlist and Unorderlist</h1>
+<h2>Name of Your Subject</h2>
+<ol class="order">
+    <li>CSS</li>
+    <li>TCS</li>
+    <li>Node Js</li>
+    <li>RDBMS</li>
+</ol>
+<h2>Branch Name</h2>
+<ul class="under">
+    <li>MCA</li>
+    <li>BCA</li>
+    <li>B.tech</li>
+    <li>BSC</li>
+</ul>
+</body>
+</html>
+
+
+.css
+body{
+    text-align: center;
+    background-color: cadetblue;  }
+.order  {
+    background-color: blueviolet;
+    padding: 15px;
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 5px;  }
+.under li   {
+    background-color: brown;
+padding: 5px;
+font-size: 18px;
+width: 40%;
+margin: 0 auto;
+border-radius: 5px;   }

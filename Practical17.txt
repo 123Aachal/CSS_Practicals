@@ -1,0 +1,27 @@
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: blueviolet;
+        display: flex;
+    justify-content: center;
+align-items: center;
+height: 100hv;
+background-color: blueviolet;     
+   }
+   .gradient
+   {
+    width :400px;
+    height: 300px;
+    background: repeating-radial-gradient(circle,violet 0px,yellow 20px,black 40px);
+   }
+    </style>
+</head>
+<body>
+    <div class="gradient"></div>
+</body>
+</html>

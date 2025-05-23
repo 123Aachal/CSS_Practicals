@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        body{
+            background-color: thistle; }
+        p{
+            color: slateblue;}
+        h1{
+            color: salmon; }
+    </style>
+</head>
+<body>
+<script>
+    function clickEvent() {
+        document.write("Welcome to Javascript......");  }
+</script> 
+<script>
+    function mouseover(){
+        document.write("This is a JavaScript Event");  }
+</script>
+<script>
+    function out() {
+        document.write("Hello Javascript...");   }
+</script>
+<form>
+    <h1>Event Handling in Javascript.....</h1>
+    <h2>Click Event</h2>
+<input type="button" onclick="clickEvent()" value="Click Here">
+<h2>MouseOver Event</h2>
+<p Onmouseover="mouseover()">Keep Cursor Over Me....</p>
+<h2>Onmouseout Event</h2>
+<p onmouseout="out()" style="background-color: blueviolet; height: 300px; width : 200px"</p></form>  
+    <h2>onblur Event</h2> 
+<p >Write something in a input box and then click elsewhere in the document body..</p>
+<input onblur="alert(this.value)">
+</body>
+</html>
